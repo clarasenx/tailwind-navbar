@@ -33,11 +33,11 @@ document.querySelector("#app").innerHTML = `
     </header>
   </main>
   <script>
-  function hideMenu(e) {
-  const navLinks = document.querySelector(".navLinks");
-  e.name = e.name === "menu" ? "close" : "menu";
-  navLinks.classList.toggle("invisible");
-}
+    function hideMenu(e) {
+      const navLinks = document.querySelector(".navLinks");
+      e.name = e.name === "menu" ? "close" : "menu";
+      navLinks.classList.toggle("invisible");
+  }
 </script>
 `;
 
