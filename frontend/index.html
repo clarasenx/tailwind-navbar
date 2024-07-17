@@ -13,5 +13,12 @@
     <script type="module" src="/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+      function hideMenu(e) {
+        const navLinks = document.querySelector(".navLinks");
+        e.name = e.name === "menu" ? "close" : "menu";
+        navLinks.classList.toggle("invisible");
+      }
+    </script>
   </body>
 </html>

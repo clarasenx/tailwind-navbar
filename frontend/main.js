@@ -32,13 +32,6 @@ document.querySelector("#app").innerHTML = `
         </nav>
     </header>
   </main>
-  <script>
-    function hideMenu(e) {
-      const navLinks = document.querySelector(".navLinks");
-      e.name = e.name === "menu" ? "close" : "menu";
-      navLinks.classList.toggle("invisible");
-  }
-</script>
 `;
 
 setupCounter(document.querySelector('#counter'))
