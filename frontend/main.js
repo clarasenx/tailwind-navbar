@@ -6,22 +6,21 @@ document.querySelector("#app").innerHTML = `
     <header class="bg-white">
         <nav class="flex justify-between items-center w-[92%] sm:h-24 h-32 mx-auto py-2">
             <div>
-                <!-- <img class="w-16 fill-[#fbc2eb]"src="/assets/flower-outline.svg" alt=""> -->
-                <ion-icon class="text-6xl text-[#fbc2eb]" name="flower-outline"></ion-icon>
+                <ion-icon class="text-6xl text-[#fbc2eb] hover:text-[#a6c1ee]" name="flower-outline"></ion-icon>
             </div>
             <div class="navLinks sm:static absolute bg-white sm:min-h-fit min-h-[40vh] left-0 top-[12%] w-full flex items-center place-content-center px-5">
                 <ul class="flex sm:flex-row flex-col items-center sm:gap-[4vw] gap-8">
                     <li>
-                        <a class="hover:text-gray-500" href="#">Home</a>
+                        <a class="hover:text-gray-700" href="#">Home</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500" href="#">Resources</a>
+                        <a class="hover:text-gray-700" href="#">Resources</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500" href="#">Products</a>
+                        <a class="hover:text-gray-700" href="#">Products</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500" href="#">About Us</a>
+                        <a class="hover:text-gray-700" href="#">About Us</a>
                     </li>
                 </ul>
             </div>
